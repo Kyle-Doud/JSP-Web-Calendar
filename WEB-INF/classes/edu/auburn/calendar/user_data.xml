@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user fname="Kyle" lname="Doud" uname="KyleDoud" pwd="pwd" email="krd0015@auburn.edu">
+		<day date="4/22/2016">
+			<goal>
+				<title>JSP Assignment 2</title>
+				<description>A music store inventory project</description>
+				<start>10:00</start>
+				<end>20:00</end>
+				<todo>
+					<item>
+						<name>Reinstall XAMPP</name>
+						<completed>true</completed>
+						<weight>0.2</weight>
+					</item>
+					<item>
+						<name>Complete first objective</name>
+						<completed>true</completed>
+						<weight>0.3</weight>
+					</item>
+					<item>
+						<name>Complete second objective</name>
+						<completed>false</completed>
+						<weight>0.3</weight>
+					</item>
+					<item>
+						<name>Complete third objective</name>
+						<completed>true</completed>
+						<weight>0.2</weight>
+					</item>
+				</todo>
+			</goal>
+		</day>
+		<day date="4/6/2016">
+			<goal>
+				<title>JSP Assignment 3</title>
+				<description>A music store inventory project</description>
+				<start>10:00</start>
+				<end>20:00</end>
+				<todo>
+					<item>
+						<name>Reinstall XAMPP</name>
+						<completed>true</completed>
+						<weight>0.2</weight>
+					</item>
+					<item>
+						<name>Complete first objective</name>
+						<completed>true</completed>
+						<weight>0.3</weight>
+					</item>
+					<item>
+						<name>Complete second objective</name>
+						<completed>true</completed>
+						<weight>0.3</weight>
+					</item>
+					<item>
+						<name>Complete third objective</name>
+						<completed>false</completed>
+						<weight>0.2</weight>
+					</item>
+				</todo>
+			</goal>
+		</day>
+	</user>
+</users>

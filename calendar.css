@@ -1,0 +1,116 @@
+/*
+ * style sheet for the devdaily.com "calendar" jsp's.
+ */
+
+body#regular_page, body#print_view_page {
+  font: 0.8em Verdana;
+  text-align: center;
+}
+
+body#regular_page #calendar_main_div {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#calendar_print_view_main_div {
+}
+
+.month_year_header {
+	text-align: center;
+	color: darkblue;
+  background-color: orange;
+}
+
+body#print_view_page td.month_year_header {
+  font: 1.2em Verdana;
+}
+
+body#print_view_page td.day_cell {
+  font-size: 0.9em;
+}
+
+#calendar_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#calendar_nav_table {
+  padding-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td#prev_link, td#next_link, td#link_to_month_view {
+  vertical-align: middle;
+}
+
+#prev_link {
+  text-align: left;
+}
+
+#next_link {
+  text-align: right;
+}
+
+.week_header_row {
+  color: white;
+  background-color: blue;
+}
+
+.week_data_row {
+  color: brown;
+}
+
+.th_day_cell {
+  text-align: center;
+  vertical-align: middle;
+  font-style: bold;
+}
+
+body#print_view_page .day_cell, .empty_day_cell {
+  text-align: right;
+  vertical-align: top;
+}
+
+.empty_day_cell {
+  color: silver;
+}
+
+.today_cell {
+	color: red;
+}
+
+.link_to_month_view_table {
+  color: green;
+}
+
+.link_to_month_view_table_row {
+  color: purple;
+}
+
+.link_to_month_view_table_cell {
+  color: pink;
+
+}
+
+.submit_button {
+  color: red;
+}
+
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration:underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+
+
+
+
+
